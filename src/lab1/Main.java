@@ -1,6 +1,9 @@
 package lab1;
 
-public static void main(String[] args) {
-    FizzBuzz.doFizzbuzz(5);
-    int i = 1111;
+class Main {
+    public static void main(String[] args) {
+    int fizz = FizzBuzz.doFizzbuzz(5);
+    System.out.println(fizz);
+}
+
 }
