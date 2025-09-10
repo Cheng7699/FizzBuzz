@@ -2,9 +2,15 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] args) {
-//        int total = multiples();
-//        System.out.println(total);
+        int total = multiples();
+        System.out.println(total);
     }
+
+    public static int multiples(){
+        return multiples(1000,3,5);
+    }
+
+
 
     public static int multiples(int n, int a , int b) {
         int total = 0;
